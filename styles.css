@@ -5,29 +5,53 @@
 body {
  display: flex;
  flex-direction: column;
-
 }
 
-.slide-1{
+.slide-1, .slide-2{
  border: 2px solid BLUE;
  display: flex;
  flex-direction: row;
+ align-items: center;
+ align-self: center;
 }
 
-.slide-2{
- border: 2px solid green;
- display: flex;
-  flex-direction: row;
- }
-
- .text-1{
+ .text-1,.text-2{
   border: 2px solid cyan;
+  background-image: url(" images/pattern-quotes copy.svg");
+  background-repeat:  no-repeat;
+  background-size: 40%;
  }
 
- .text-2{
-  border: 2px solid brown;
- }
+.button-1 {
+ position: relative;
+ top: 40%;
+ left: -35%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #f1f1f1;
+ color: black;
+ font-size: 16px;
+ padding: 10px 10px;
+ border: none;
+ cursor: pointer;
+ border-radius: 15px;
+ text-align: center;
 
-.img-1 {
- background-size: 10%;
+}
+
+.button-2 {
+ position: relative;
+ top: 82%;
+ left: -35%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #f1f1f1;
+ color: black;
+ font-size: 16px;
+ padding: 10px 10px;
+ border: none;
+ cursor: pointer;
+ border-radius: 15px;
+ text-align: center;
+
 }
