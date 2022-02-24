@@ -5,7 +5,6 @@
 body {
  display: flex;
  flex-direction: column;
-display: block;
 }
 
 .slide-1, .slide-2{
