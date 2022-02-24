@@ -1,0 +1,33 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+ display: flex;
+ flex-direction: column;
+
+}
+
+.slide-1{
+ border: 2px solid BLUE;
+ display: flex;
+ flex-direction: row;
+}
+
+.slide-2{
+ border: 2px solid green;
+ display: flex;
+  flex-direction: row;
+ }
+
+ .text-1{
+  border: 2px solid cyan;
+ }
+
+ .text-2{
+  border: 2px solid brown;
+ }
+
+.img-1 {
+ background-size: 10%;
+}
